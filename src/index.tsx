@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {store} from './BLL/store';
+import {Provider} from 'react-redux';
+import {BrowserRouter} from 'react-router-dom';
+import {GlobalStyle} from './normalizeCSS/normalize';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Provider store={store}>
+          <BrowserRouter>
+              <GlobalStyle />
+              <App/>
+          </BrowserRouter>
+      </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
