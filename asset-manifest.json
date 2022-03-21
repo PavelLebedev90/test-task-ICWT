@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/test-task-ICWT/static/css/main.31d6cfe0.css",
+    "main.js": "/test-task-ICWT/static/js/main.d62a20cc.js",
+    "static/js/787.28cb0dcd.chunk.js": "/test-task-ICWT/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/test-task-ICWT/index.html",
+    "main.d62a20cc.js.map": "/test-task-ICWT/static/js/main.d62a20cc.js.map",
+    "787.28cb0dcd.chunk.js.map": "/test-task-ICWT/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.d62a20cc.js"
+  ]
+}
