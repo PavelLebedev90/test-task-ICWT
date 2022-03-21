@@ -46,7 +46,6 @@ function App() {
         dispatch(getSavedFavoriteJoke())
     }, [dispatch])
 
-
     const content = error ? error : joke.value
     return (
         <Wrapper>
